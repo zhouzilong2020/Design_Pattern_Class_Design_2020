@@ -12,4 +12,5 @@ set(CMAKE_CXX_STANDARD 11)
 #        Component/SlatSeat.h
 #        )
 
-add_executable(DesignPattern main.cpp ${SOURCE_FILES} ${SOURCES} Facility/State/IState.h Facility/State/MorningState.h Facility/State/AfterNoonState.h Facility/State/EveningState.h Facility/IFacility.h a/CA.h Factory/IFactory.h Factory/Builder/IBuilder.h Component/config/ScreenType.h Component/Screen/HRScreen.h Component/Screen/RetinaScreen.h Component/IScreen.h)
+add_executable(DesignPattern main.cpp ${SOURCE_FILES} ${SOURCES} Facility/State/IState.h Facility/State/WinterState.h Facility/State/SummerState.h Facility/IFacility.h
+        Factory/IFactory.h Factory/Builder/IBuilder.h Component/config/ScreenType.h Component/Screen/HRScreen.h Component/Screen/RetinaScreen.h Component/IScreen.h test/a.h test/b.h Factory/SwimmingPoolFactory.h Factory/Builder/SwimmingPoolBuilder.h Facility/State/IState.cpp Facility/IFacility.cpp Facility/State/SummerState.cpp Facility/State/WinterState.cpp)

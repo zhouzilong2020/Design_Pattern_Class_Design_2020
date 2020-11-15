@@ -6,33 +6,34 @@
 #include <iostream>
 
 
-class ISwimmingpool : public IFacility {
+class ISwimmingPool : public IFacility {
 protected:
-    ISwimmingpool(int size, int capacity)
+    ISwimmingPool(int size, int capacity)
             : IFacility(size, capacity) {};
-    IComponent *seat;
-
 public:
     virtual void prepareFacility() override {
+        std::cout << "SwimmingPool::prepareFacility()" << std::endl;
+        std::cout << "SwimmingPool::prepareFacility::";
         getWater();
-        neutualize();
+        std::cout << "SwimmingPool::prepareFacility::";
+        neutralize();
     }
 
     virtual void holdCompetition() override {
-        std::cout << "Swimmingpool::holdCompetition()" << std::endl;
+        std::cout << "SwimmingPool::holdCompetition()" << std::endl;
     };
 
     virtual void holdCeremony() override {
-        std::cout << " Swimmingpool::holdCeremony()" << std::endl;
+        std::cout << "SwimmingPool::holdCeremony()" << std::endl;
     };
 
     virtual void cleanFacility() override {
-        neutualize();
+        neutralize();
     };
 
     virtual void getWater() = 0;
 
-    virtual void neutualize() = 0;
+    virtual void neutralize() = 0;
 };
 
 #endif

@@ -5,7 +5,15 @@
 #ifndef DESIGNPATTERN_ISTATE_H
 #define DESIGNPATTERN_ISTATE_H
 
+
+class IFacility;
+
 class IState {
+protected:
+    IFacility *_facility;
+
+    IState(IFacility &facility);
+
 public:
     virtual void prepareFacility() = 0;
 
@@ -15,7 +23,6 @@ public:
 
     virtual void cleanFacility() = 0;
 
-    virtual void nextState() = 0;
 };
 
 

@@ -18,13 +18,16 @@ protected:
 public:
     static SlatSeat _slatSeat;
 
-    virtual ISeat *clone() { return new SlatSeat(SlatSeat::_slatSeatCnt++); }
+    virtual ISeat *clone() override { return new SlatSeat(SlatSeat::_slatSeatCnt++); }
 
     virtual void seat() override {
         showInfo();
         std::cout << "SlatSeat seated" << std::endl;
     }
 };
+
 int SlatSeat::_slatSeatCnt = 0;
+
 class ::SlatSeat SlatSeat::_slatSeat;
+
 #endif

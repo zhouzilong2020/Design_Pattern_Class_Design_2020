@@ -9,16 +9,19 @@
 #include "../../Facility/IFacility.h"
 
 class IBuilder {
-private:
-    IFacility *_facility;
+protected:
+    IComponent *_seat;
+    IComponent *_screen;
+
+    IBuilder(IComponent &seat, IComponent &screen) : _seat(&seat), _screen(&screen) {}
+
 public:
-    virtual void buildOutline() = 0;
 
-    virtual void buildSeat() = 0;
+    virtual void construct(IFacility &facility) = 0;
 
-    virtual IFacility *getFacility() {
-        return this->_facility;
-    }
+    virtual void installSeat(IFacility &facility) = 0;
+
+    virtual void installScreen(IFacility &facility) = 0;
 };
 
 

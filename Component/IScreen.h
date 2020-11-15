@@ -13,17 +13,15 @@
 class IScreen : public IComponent {
 
 protected:
+    int _id;
     ScreenType _screenType;
 
-    int _id;
-
     IScreen(ScreenType screenType, int id) : IComponent(ComponentType::Screen), _screenType(screenType), _id(id) {};
-
 public:
 
     virtual void showInfo() {
         std::cout << "ComponentType:" << this->_componentType << " Style:" << this->_screenType << " No." << this->_id
-                  << std::endl
+                  << std::endl;
     };
 
     virtual void doSomething() {

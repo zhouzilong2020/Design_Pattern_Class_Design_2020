@@ -1,21 +1,21 @@
 #ifndef SWIMMINGPOOL_2020
 #define SWIMMINGPOOL_2020
 
-#include "ISwimmingpool.h"
+#include "ISwimmingPool.h"
 #include <iostream>
 
-class Swimmingpool2020 : public ISwimmingpool {
+class SwimmingPool2020 : public ISwimmingPool {
 
 public:
-    Swimmingpool2020(int size, int capacity)
-            : ISwimmingpool(size, capacity) {};
+    SwimmingPool2020(int size, int capacity)
+            : ISwimmingPool(size, capacity) {};
 
     virtual void getWater() override {
-        std::cout << "Swimmingpool2020::getWater()" << std::endl;
+        std::cout << "SwimmingPool2020::getWater()" << std::endl;
     };
 
-    virtual void neutualize() override {
-        std::cout << "Swimmingpool2020::neutualize()" << std::endl;
+    virtual void neutralize() override {
+        std::cout << "SwimmingPool2020::neutralize()" << std::endl;
     };
 
 };
