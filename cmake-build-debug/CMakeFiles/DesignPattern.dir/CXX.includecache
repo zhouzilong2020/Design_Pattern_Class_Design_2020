@@ -62,16 +62,6 @@ iostream
 
 /Users/zhouzilong/CLionProjects/DesignPattern/Component/config/SeatType.h
 
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/IFacility.cpp
-State/IState.h
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/IState.h
-State/WinterState.h
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/WinterState.h
-State/SummerState.h
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/SummerState.h
-IFacility.h
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/IFacility.h
-
 /Users/zhouzilong/CLionProjects/DesignPattern/Facility/IFacility.h
 list
 -
@@ -88,25 +78,7 @@ IFacility.h
 iostream
 -
 
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/IState.cpp
-../IFacility.h
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/IFacility.h
-IState.h
 /Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/IState.h
-
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/IState.h
-
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/SummerState.cpp
-SummerState.h
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/SummerState.h
-../IFacility.h
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/IFacility.h
-
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/SummerState.h
-IState.h
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/IState.h
-iostream
--
 
 /Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/WinterState.cpp
 WinterState.h

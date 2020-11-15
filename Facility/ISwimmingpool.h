@@ -20,6 +20,9 @@ public:
     }
 
     virtual void holdCompetition() override {
+
+        this->_screen->doSomething();
+
         std::cout << "SwimmingPool::holdCompetition()" << std::endl;
     };
 
