@@ -8,19 +8,25 @@
 #include "IState.h"
 #include <iostream>
 
+/// 前项声明
 class IFacility;
 
+/**
+ * concrete class
+ * 场馆对应的夏天方法
+ */
 class SummerState : public IState {
 public:
+    /// 注释以及使用见.cpp，下同
     SummerState(IFacility &facility);
 
-    virtual void prepareFacility();
+    virtual void prepareFacility() override;
 
-    virtual void holdCompetition();
+    virtual void holdCompetition() override;
 
-    virtual void holdCeremony();
+    virtual void holdCeremony() override;
 
-    virtual void cleanFacility();
+    virtual void cleanFacility() override;
 };
 
 
