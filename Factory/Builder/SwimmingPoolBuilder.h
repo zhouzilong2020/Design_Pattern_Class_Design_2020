@@ -10,8 +10,8 @@
 #include <iostream>
 
 /**
- * concerte class
- * 游泳馆建造者的实现类，继承自Ibuilder
+ * concrete class
+ * 游泳馆建造者的实现类，继承自IBuilder
  */
 class SwimmingPoolBuilder : public IBuilder {
 public:
@@ -40,7 +40,6 @@ public:
             facility.addSeat(*this->_seat->clone());
         }
     };
-
 
     /**
      * 安装屏幕
