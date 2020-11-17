@@ -78,20 +78,6 @@ IFacility.h
 iostream
 -
 
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/IState.h
-
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/WinterState.cpp
-WinterState.h
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/WinterState.h
-../IFacility.h
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/IFacility.h
-
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/WinterState.h
-IState.h
-/Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/IState.h
-iostream
--
-
 /Users/zhouzilong/CLionProjects/DesignPattern/Facility/SwimmingPool2020.h
 ISwimmingPool.h
 /Users/zhouzilong/CLionProjects/DesignPattern/Facility/ISwimmingPool.h

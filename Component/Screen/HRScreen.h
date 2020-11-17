@@ -17,7 +17,7 @@ private:
     /**
      * 高清屏幕的构造函数，为private，屏蔽外界直接创造，必须通过prototype进行clone
      */
-    HRScreen() : IScreen(ScreenType::RetinaScreen, _HRScreenCnt) {}
+    HRScreen() : IScreen(ScreenType::HRScreen, _HRScreenCnt) {}
 
     /// 一个静态成员变量，为制造过的所有屏幕进行统计
     static int _HRScreenCnt;
@@ -27,7 +27,7 @@ protected:
      * clone调用的构造函数
      * @param id 部件的id
      */
-    HRScreen(int id) : IScreen(ScreenType::RetinaScreen, id) {};
+    HRScreen(int id) : IScreen(ScreenType::HRScreen, id) {};
 
 public:
     /// 一个静态成员变量，为工厂提供一个副本

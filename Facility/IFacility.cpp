@@ -31,3 +31,7 @@ void IFacility::hostGame() {
     this->_curState->holdCeremony();
     this->_curState->cleanFacility();
 }
+
+int fun(int a, int b){
+    return 1;
+}
