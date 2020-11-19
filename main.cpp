@@ -6,7 +6,6 @@
 #include "Facility/IFacility.h"
 #include "Factory/SwimmingPoolFactory.h"
 #include "Factory/Builder/SwimmingPoolBuilder.h"
-#include "Facility/SwimmingPool2020.h"
 
 using namespace std;
 
@@ -14,10 +13,12 @@ int main() {
 
     IFacility *facility;
     IBuilder *builder = new SwimmingPoolBuilder(SlatSeat::_slatSeat, HRScreen::_HRScreen);
-    IFactory *factory = new SwimmingPoolFactory(*(new SwimmingPool2020(20, 20)), *builder);
+    IFactory *factory = new SwimmingPoolFactory(*builder);
     factory->buildFacility();
 
     facility = factory->getFacility();
+
+
     facility->hostGame();
 
     facility->setWinterState();
