@@ -90,89 +90,89 @@ CMakeFiles/DesignPattern.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPattern.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhouzilong/CLionProjects/DesignPattern/main.cpp -o CMakeFiles/DesignPattern.dir/main.cpp.s
 
-CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.o: CMakeFiles/DesignPattern.dir/flags.make
-CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.o: ../Facility/State/IState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhouzilong/CLionProjects/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.o -c /Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/IState.cpp
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.o: CMakeFiles/DesignPattern.dir/flags.make
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.o: ../State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhouzilong/CLionProjects/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.o -c /Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp
 
-CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/IState.cpp > CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.i
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp > CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.i
 
-CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/IState.cpp -o CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.s
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp -o CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.s
 
-CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.o: CMakeFiles/DesignPattern.dir/flags.make
-CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.o: ../Facility/IFacility.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhouzilong/CLionProjects/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.o -c /Users/zhouzilong/CLionProjects/DesignPattern/Facility/IFacility.cpp
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.o: CMakeFiles/DesignPattern.dir/flags.make
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.o: ../State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhouzilong/CLionProjects/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.o -c /Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp
 
-CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhouzilong/CLionProjects/DesignPattern/Facility/IFacility.cpp > CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.i
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp > CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.i
 
-CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhouzilong/CLionProjects/DesignPattern/Facility/IFacility.cpp -o CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.s
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp -o CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.s
 
-CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.o: CMakeFiles/DesignPattern.dir/flags.make
-CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.o: ../Facility/State/SummerState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhouzilong/CLionProjects/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.o -c /Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/SummerState.cpp
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.o: CMakeFiles/DesignPattern.dir/flags.make
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.o: ../State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhouzilong/CLionProjects/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.o -c /Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp
 
-CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/SummerState.cpp > CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.i
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp > CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.i
 
-CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/SummerState.cpp -o CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.s
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp -o CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.s
 
-CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.o: CMakeFiles/DesignPattern.dir/flags.make
-CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.o: ../Facility/State/WinterState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhouzilong/CLionProjects/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.o -c /Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/WinterState.cpp
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.o: CMakeFiles/DesignPattern.dir/flags.make
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.o: ../State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhouzilong/CLionProjects/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.o -c /Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp
 
-CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/WinterState.cpp > CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.i
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp > CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.i
 
-CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhouzilong/CLionProjects/DesignPattern/Facility/State/WinterState.cpp -o CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.s
+CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp -o CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.s
 
-CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.o: CMakeFiles/DesignPattern.dir/flags.make
-CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.o: ../PoolObject/PoolProxy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhouzilong/CLionProjects/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.o -c /Users/zhouzilong/CLionProjects/DesignPattern/PoolObject/PoolProxy.cpp
+CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.o: CMakeFiles/DesignPattern.dir/flags.make
+CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.o: ../Pool_Proxy/PoolObject/PoolProxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhouzilong/CLionProjects/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.o -c /Users/zhouzilong/CLionProjects/DesignPattern/Pool_Proxy/PoolObject/PoolProxy.cpp
 
-CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhouzilong/CLionProjects/DesignPattern/PoolObject/PoolProxy.cpp > CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.i
+CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhouzilong/CLionProjects/DesignPattern/Pool_Proxy/PoolObject/PoolProxy.cpp > CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.i
 
-CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhouzilong/CLionProjects/DesignPattern/PoolObject/PoolProxy.cpp -o CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.s
+CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhouzilong/CLionProjects/DesignPattern/Pool_Proxy/PoolObject/PoolProxy.cpp -o CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.s
 
 # Object files for target DesignPattern
 DesignPattern_OBJECTS = \
 "CMakeFiles/DesignPattern.dir/main.cpp.o" \
-"CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.o" \
-"CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.o" \
-"CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.o" \
-"CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.o" \
-"CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.o"
+"CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.o" \
+"CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.o" \
+"CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.o" \
+"CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.o" \
+"CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.o"
 
 # External object files for target DesignPattern
 DesignPattern_EXTERNAL_OBJECTS =
 
 DesignPattern: CMakeFiles/DesignPattern.dir/main.cpp.o
-DesignPattern: CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.o
-DesignPattern: CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.o
-DesignPattern: CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.o
-DesignPattern: CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.o
-DesignPattern: CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.o
+DesignPattern: CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.o
+DesignPattern: CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.o
+DesignPattern: CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.o
+DesignPattern: CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.o
+DesignPattern: CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.o
 DesignPattern: CMakeFiles/DesignPattern.dir/build.make
 DesignPattern: CMakeFiles/DesignPattern.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhouzilong/CLionProjects/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable DesignPattern"

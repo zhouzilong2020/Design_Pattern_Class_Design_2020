@@ -143,140 +143,140 @@ DesignPattern/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/build
 .PHONY : DesignPattern/fast
 
-Facility/IFacility.o: Facility/IFacility.cpp.o
+Pool_Proxy/PoolObject/PoolProxy.o: Pool_Proxy/PoolObject/PoolProxy.cpp.o
 
-.PHONY : Facility/IFacility.o
-
-# target to build an object file
-Facility/IFacility.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.o
-.PHONY : Facility/IFacility.cpp.o
-
-Facility/IFacility.i: Facility/IFacility.cpp.i
-
-.PHONY : Facility/IFacility.i
-
-# target to preprocess a source file
-Facility/IFacility.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.i
-.PHONY : Facility/IFacility.cpp.i
-
-Facility/IFacility.s: Facility/IFacility.cpp.s
-
-.PHONY : Facility/IFacility.s
-
-# target to generate assembly for a file
-Facility/IFacility.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Facility/IFacility.cpp.s
-.PHONY : Facility/IFacility.cpp.s
-
-Facility/State/IState.o: Facility/State/IState.cpp.o
-
-.PHONY : Facility/State/IState.o
+.PHONY : Pool_Proxy/PoolObject/PoolProxy.o
 
 # target to build an object file
-Facility/State/IState.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.o
-.PHONY : Facility/State/IState.cpp.o
+Pool_Proxy/PoolObject/PoolProxy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.o
+.PHONY : Pool_Proxy/PoolObject/PoolProxy.cpp.o
 
-Facility/State/IState.i: Facility/State/IState.cpp.i
+Pool_Proxy/PoolObject/PoolProxy.i: Pool_Proxy/PoolObject/PoolProxy.cpp.i
 
-.PHONY : Facility/State/IState.i
+.PHONY : Pool_Proxy/PoolObject/PoolProxy.i
 
 # target to preprocess a source file
-Facility/State/IState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.i
-.PHONY : Facility/State/IState.cpp.i
+Pool_Proxy/PoolObject/PoolProxy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.i
+.PHONY : Pool_Proxy/PoolObject/PoolProxy.cpp.i
 
-Facility/State/IState.s: Facility/State/IState.cpp.s
+Pool_Proxy/PoolObject/PoolProxy.s: Pool_Proxy/PoolObject/PoolProxy.cpp.s
 
-.PHONY : Facility/State/IState.s
+.PHONY : Pool_Proxy/PoolObject/PoolProxy.s
 
 # target to generate assembly for a file
-Facility/State/IState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Facility/State/IState.cpp.s
-.PHONY : Facility/State/IState.cpp.s
+Pool_Proxy/PoolObject/PoolProxy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Pool_Proxy/PoolObject/PoolProxy.cpp.s
+.PHONY : Pool_Proxy/PoolObject/PoolProxy.cpp.s
 
-Facility/State/SummerState.o: Facility/State/SummerState.cpp.o
+State_Factory_Template_Builder_Prototype/Facility/IFacility.o: State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.o
 
-.PHONY : Facility/State/SummerState.o
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/IFacility.o
 
 # target to build an object file
-Facility/State/SummerState.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.o
-.PHONY : Facility/State/SummerState.cpp.o
+State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.o
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.o
 
-Facility/State/SummerState.i: Facility/State/SummerState.cpp.i
+State_Factory_Template_Builder_Prototype/Facility/IFacility.i: State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.i
 
-.PHONY : Facility/State/SummerState.i
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/IFacility.i
 
 # target to preprocess a source file
-Facility/State/SummerState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.i
-.PHONY : Facility/State/SummerState.cpp.i
+State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.i
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.i
 
-Facility/State/SummerState.s: Facility/State/SummerState.cpp.s
+State_Factory_Template_Builder_Prototype/Facility/IFacility.s: State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.s
 
-.PHONY : Facility/State/SummerState.s
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/IFacility.s
 
 # target to generate assembly for a file
-Facility/State/SummerState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Facility/State/SummerState.cpp.s
-.PHONY : Facility/State/SummerState.cpp.s
+State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.s
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/IFacility.cpp.s
 
-Facility/State/WinterState.o: Facility/State/WinterState.cpp.o
+State_Factory_Template_Builder_Prototype/Facility/State/IState.o: State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.o
 
-.PHONY : Facility/State/WinterState.o
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/IState.o
 
 # target to build an object file
-Facility/State/WinterState.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.o
-.PHONY : Facility/State/WinterState.cpp.o
+State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.o
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.o
 
-Facility/State/WinterState.i: Facility/State/WinterState.cpp.i
+State_Factory_Template_Builder_Prototype/Facility/State/IState.i: State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.i
 
-.PHONY : Facility/State/WinterState.i
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/IState.i
 
 # target to preprocess a source file
-Facility/State/WinterState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.i
-.PHONY : Facility/State/WinterState.cpp.i
+State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.i
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.i
 
-Facility/State/WinterState.s: Facility/State/WinterState.cpp.s
+State_Factory_Template_Builder_Prototype/Facility/State/IState.s: State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.s
 
-.PHONY : Facility/State/WinterState.s
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/IState.s
 
 # target to generate assembly for a file
-Facility/State/WinterState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.s
-.PHONY : Facility/State/WinterState.cpp.s
+State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.s
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/IState.cpp.s
 
-PoolObject/PoolProxy.o: PoolObject/PoolProxy.cpp.o
+State_Factory_Template_Builder_Prototype/Facility/State/SummerState.o: State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.o
 
-.PHONY : PoolObject/PoolProxy.o
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/SummerState.o
 
 # target to build an object file
-PoolObject/PoolProxy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.o
-.PHONY : PoolObject/PoolProxy.cpp.o
+State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.o
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.o
 
-PoolObject/PoolProxy.i: PoolObject/PoolProxy.cpp.i
+State_Factory_Template_Builder_Prototype/Facility/State/SummerState.i: State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.i
 
-.PHONY : PoolObject/PoolProxy.i
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/SummerState.i
 
 # target to preprocess a source file
-PoolObject/PoolProxy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.i
-.PHONY : PoolObject/PoolProxy.cpp.i
+State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.i
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.i
 
-PoolObject/PoolProxy.s: PoolObject/PoolProxy.cpp.s
+State_Factory_Template_Builder_Prototype/Facility/State/SummerState.s: State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.s
 
-.PHONY : PoolObject/PoolProxy.s
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/SummerState.s
 
 # target to generate assembly for a file
-PoolObject/PoolProxy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.s
-.PHONY : PoolObject/PoolProxy.cpp.s
+State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.s
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/SummerState.cpp.s
+
+State_Factory_Template_Builder_Prototype/Facility/State/WinterState.o: State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.o
+
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/WinterState.o
+
+# target to build an object file
+State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.o
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.o
+
+State_Factory_Template_Builder_Prototype/Facility/State/WinterState.i: State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.i
+
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/WinterState.i
+
+# target to preprocess a source file
+State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.i
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.i
+
+State_Factory_Template_Builder_Prototype/Facility/State/WinterState.s: State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.s
+
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/WinterState.s
+
+# target to generate assembly for a file
+State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.s
+.PHONY : State_Factory_Template_Builder_Prototype/Facility/State/WinterState.cpp.s
 
 main.o: main.cpp.o
 
@@ -314,21 +314,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DesignPattern"
-	@echo "... Facility/IFacility.o"
-	@echo "... Facility/IFacility.i"
-	@echo "... Facility/IFacility.s"
-	@echo "... Facility/State/IState.o"
-	@echo "... Facility/State/IState.i"
-	@echo "... Facility/State/IState.s"
-	@echo "... Facility/State/SummerState.o"
-	@echo "... Facility/State/SummerState.i"
-	@echo "... Facility/State/SummerState.s"
-	@echo "... Facility/State/WinterState.o"
-	@echo "... Facility/State/WinterState.i"
-	@echo "... Facility/State/WinterState.s"
-	@echo "... PoolObject/PoolProxy.o"
-	@echo "... PoolObject/PoolProxy.i"
-	@echo "... PoolObject/PoolProxy.s"
+	@echo "... Pool_Proxy/PoolObject/PoolProxy.o"
+	@echo "... Pool_Proxy/PoolObject/PoolProxy.i"
+	@echo "... Pool_Proxy/PoolObject/PoolProxy.s"
+	@echo "... State_Factory_Template_Builder_Prototype/Facility/IFacility.o"
+	@echo "... State_Factory_Template_Builder_Prototype/Facility/IFacility.i"
+	@echo "... State_Factory_Template_Builder_Prototype/Facility/IFacility.s"
+	@echo "... State_Factory_Template_Builder_Prototype/Facility/State/IState.o"
+	@echo "... State_Factory_Template_Builder_Prototype/Facility/State/IState.i"
+	@echo "... State_Factory_Template_Builder_Prototype/Facility/State/IState.s"
+	@echo "... State_Factory_Template_Builder_Prototype/Facility/State/SummerState.o"
+	@echo "... State_Factory_Template_Builder_Prototype/Facility/State/SummerState.i"
+	@echo "... State_Factory_Template_Builder_Prototype/Facility/State/SummerState.s"
+	@echo "... State_Factory_Template_Builder_Prototype/Facility/State/WinterState.o"
+	@echo "... State_Factory_Template_Builder_Prototype/Facility/State/WinterState.i"
+	@echo "... State_Factory_Template_Builder_Prototype/Facility/State/WinterState.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
