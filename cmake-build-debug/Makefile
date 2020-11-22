@@ -251,6 +251,33 @@ Facility/State/WinterState.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.s
 .PHONY : Facility/State/WinterState.cpp.s
 
+PoolObject/PoolProxy.o: PoolObject/PoolProxy.cpp.o
+
+.PHONY : PoolObject/PoolProxy.o
+
+# target to build an object file
+PoolObject/PoolProxy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.o
+.PHONY : PoolObject/PoolProxy.cpp.o
+
+PoolObject/PoolProxy.i: PoolObject/PoolProxy.cpp.i
+
+.PHONY : PoolObject/PoolProxy.i
+
+# target to preprocess a source file
+PoolObject/PoolProxy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.i
+.PHONY : PoolObject/PoolProxy.cpp.i
+
+PoolObject/PoolProxy.s: PoolObject/PoolProxy.cpp.s
+
+.PHONY : PoolObject/PoolProxy.s
+
+# target to generate assembly for a file
+PoolObject/PoolProxy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.s
+.PHONY : PoolObject/PoolProxy.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -299,6 +326,9 @@ help:
 	@echo "... Facility/State/WinterState.o"
 	@echo "... Facility/State/WinterState.i"
 	@echo "... Facility/State/WinterState.s"
+	@echo "... PoolObject/PoolProxy.o"
+	@echo "... PoolObject/PoolProxy.i"
+	@echo "... PoolObject/PoolProxy.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

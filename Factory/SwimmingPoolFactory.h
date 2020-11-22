@@ -6,7 +6,7 @@
 #define DESIGNPATTERN_SWIMMINGPOOLFACTORY_H
 
 #include "IFactory.h"
-#include "Facility/SwimmingPool2020.h"
+#include "../Facility/SwimmingPool2020.h"
 
 /**
  * concrete class

@@ -128,13 +128,25 @@
 		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/Factory/SwimmingPoolFactory.h">
 			<Option target="DesignPattern"/>
 		</Unit>
+		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/PoolManager/PoolManager.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/PoolObject/Dish.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/PoolObject/IPoolObject.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/PoolObject/PoolProxy.cpp">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/PoolObject/PoolProxy.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/PoolObject/Spoon.h">
+			<Option target="DesignPattern"/>
+		</Unit>
 		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/main.cpp">
-			<Option target="DesignPattern"/>
-		</Unit>
-		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/test/a.h">
-			<Option target="DesignPattern"/>
-		</Unit>
-		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/test/b.h">
 			<Option target="DesignPattern"/>
 		</Unit>
 		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/CMakeLists.txt">

@@ -29,21 +29,15 @@ CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.o: ../Facility/State
 CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.o: ../Facility/State/WinterState.cpp
 CMakeFiles/DesignPattern.dir/Facility/State/WinterState.cpp.o: ../Facility/State/WinterState.h
 
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Component/IComponent.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Component/IScreen.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Component/ISeat.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Component/Screen/HRScreen.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Component/Seat/FoldSeat.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Component/Seat/SlatSeat.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Component/config/ComponentType.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Component/config/ScreenType.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Component/config/SeatType.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Facility/IFacility.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Facility/ISwimmingPool.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Facility/SwimmingPool2020.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Factory/Builder/IBuilder.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Factory/Builder/SwimmingPoolBuilder.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Factory/IFactory.h
-CMakeFiles/DesignPattern.dir/main.cpp.o: ../Factory/SwimmingPoolFactory.h
+CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.o: ../PoolManager/PoolManager.h
+CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.o: ../PoolObject/IPoolObject.h
+CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.o: ../PoolObject/PoolProxy.cpp
+CMakeFiles/DesignPattern.dir/PoolObject/PoolProxy.cpp.o: ../PoolObject/PoolProxy.h
+
+CMakeFiles/DesignPattern.dir/main.cpp.o: ../PoolManager/PoolManager.h
+CMakeFiles/DesignPattern.dir/main.cpp.o: ../PoolObject/Dish.h
+CMakeFiles/DesignPattern.dir/main.cpp.o: ../PoolObject/IPoolObject.h
+CMakeFiles/DesignPattern.dir/main.cpp.o: ../PoolObject/PoolProxy.h
+CMakeFiles/DesignPattern.dir/main.cpp.o: ../PoolObject/Spoon.h
 CMakeFiles/DesignPattern.dir/main.cpp.o: ../main.cpp
 
