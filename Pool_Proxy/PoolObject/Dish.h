@@ -9,46 +9,48 @@
 #include <string>
 #include <iostream>
 
-class Dish : public IPoolObject {
-private:
-    std::string _foodType;
+namespace cafeteria {
+    class Dish : public IPoolObject {
+    private:
+        std::string _foodType;
 
-    Dish() {}
+        Dish() {}
 
-    void execute() override {
-        this->serve();
-        this->wash();
-    }
+        void execute() override {
+            this->serve();
+            this->wash();
+        }
 
-public:
-    static Dish _Dish;
+    public:
+        static Dish _Dish;
 
-    IPoolObject *clone() override {
-        return new Dish();
-    }
+        IPoolObject *clone() override {
+            return new Dish();
+        }
 
-    void execute(std::string foodType) {
-        this->prepareFood(foodType);
-        this->execute();
-    }
+        void execute(std::string foodType) {
+            this->prepareFood(foodType);
+            this->execute();
+        }
 
 
-    void prepareFood(std::string foodType) {
-        std::cout << "Dish::prepareFood()" << std::endl;
-        this->_foodType = foodType;
-    }
+        void prepareFood(std::string foodType) {
+            std::cout << "Dish::prepareFood()" << std::endl;
+            this->_foodType = foodType;
+        }
 
-    void serve() {
-        std::cout << "Dish::serve()" << std::endl;
-    }
+        void serve() {
+            std::cout << "Dish::serve()" << std::endl;
+        }
 
-    void wash() {
-        std::cout << "Dish::wash()" << std::endl;
-        this->_foodType.clear();
-    }
+        void wash() {
+            std::cout << "Dish::wash()" << std::endl;
+            this->_foodType.clear();
+        }
 
-};
+    };
 
-Dish Dish::_Dish;
+    Dish Dish::_Dish;
+}
 
 #endif //DESIGNPATTERN_DISH_H

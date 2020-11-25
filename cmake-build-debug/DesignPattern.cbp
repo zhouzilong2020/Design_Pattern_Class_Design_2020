@@ -98,6 +98,9 @@
 		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/Pool_Proxy/PoolObject/Spoon.h">
 			<Option target="DesignPattern"/>
 		</Unit>
+		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/Pool_Proxy/cafeteria.h">
+			<Option target="DesignPattern"/>
+		</Unit>
 		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/ServiceLocator/Cache.h">
 			<Option target="DesignPattern"/>
 		</Unit>
@@ -114,6 +117,9 @@
 			<Option target="DesignPattern"/>
 		</Unit>
 		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/ServiceLocator/ServiceLocator.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/ServiceLocator/network.h">
 			<Option target="DesignPattern"/>
 		</Unit>
 		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Component/IScreen.h">
@@ -162,6 +168,9 @@
 			<Option target="DesignPattern"/>
 		</Unit>
 		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/Factory/SwimmingPoolFactory.h">
+			<Option target="DesignPattern"/>
+		</Unit>
+		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/State_Factory_Template_Builder_Prototype/facility.h">
 			<Option target="DesignPattern"/>
 		</Unit>
 		<Unit filename="/Users/zhouzilong/CLionProjects/DesignPattern/main.cpp">

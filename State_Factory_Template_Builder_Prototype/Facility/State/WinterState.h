@@ -8,27 +8,28 @@
 #include "IState.h"
 #include <iostream>
 
+namespace facility {
 /// 前项声明
-class IFacility;
+    class IFacility;
 
 /**
  * concrete class
  * 场馆在冬天对应的状态
  */
-class WinterState : public IState {
+    class WinterState : public IState {
 
-public:
-    /// 注释以及使用见.cpp，下同
-    WinterState(IFacility &facility);
+    public:
+        /// 注释以及使用见.cpp，下同
+        WinterState(IFacility &facility);
 
-    virtual void prepareFacility() override;
+        virtual void prepareFacility() override;
 
-    virtual void holdCompetition() override;
+        virtual void holdCompetition() override;
 
-    virtual void holdCeremony() override;
+        virtual void holdCeremony() override;
 
-    virtual void cleanFacility() override;
-};
+        virtual void cleanFacility() override;
+    };
 
-
+}
 #endif //DESIGNPATTERN_WINTERSTATE_H

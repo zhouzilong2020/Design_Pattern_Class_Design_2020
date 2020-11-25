@@ -9,16 +9,17 @@
 #include <iostream>
 #include <string>
 
-class FiveGService : public IService {
-public:
-    void execute() override {
-        std::cout << "FiveGService::execute()" << std::endl;
-    }
+namespace network {
+    class FiveGService : public IService {
+    public:
+        void execute() override {
+            std::cout << "FiveGService::execute()" << std::endl;
+        }
 
-    std::string getName() override {
-        return "FiveGService";
-    }
+        std::string getName() override {
+            return "FiveGService";
+        }
 
-};
-
+    };
+}
 #endif //DESIGNPATTERN_FIVEGSERVICE_H

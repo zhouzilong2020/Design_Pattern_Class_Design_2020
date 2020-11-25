@@ -9,17 +9,18 @@
 #include <iostream>
 #include <string>
 
-class FourGService : public IService {
-public:
-    void execute() override {
-        std::cout << "FourGService::execute()" << std::endl;
-    }
+namespace network {
+    class FourGService : public IService {
+    public:
+        void execute() override {
+            std::cout << "FourGService::execute()" << std::endl;
+        }
 
-    std::string getName() override{
-        return "FourGService";
-    }
+        std::string getName() override {
+            return "FourGService";
+        }
 
-};
-
+    };
+}
 
 #endif //DESIGNPATTERN_FOURGSERVICE_H

@@ -10,32 +10,33 @@
 #include <iostream>
 #include <string>
 
-class Spoon : public IPoolObject {
-private:
-    Spoon() {}
+namespace cafeteria {
+    class Spoon : public IPoolObject {
+    private:
+        Spoon() {}
 
-public:
-    static Spoon _Spoon;
+    public:
+        static Spoon _Spoon;
 
-    IPoolObject *clone() override {
-        return new Spoon();
-    }
+        IPoolObject *clone() override {
+            return new Spoon();
+        }
 
-    void execute() override {
-        this->serve();
-        this->wash();
-    }
+        void execute() override {
+            this->serve();
+            this->wash();
+        }
 
-    void serve() {
-        std::cout << "Spoon::server()" << std::endl;
-    }
+        void serve() {
+            std::cout << "Spoon::server()" << std::endl;
+        }
 
-    void wash() {
-        std::cout << "Spoon::wash()" << std::endl;
-    }
+        void wash() {
+            std::cout << "Spoon::wash()" << std::endl;
+        }
 
-};
+    };
 
-Spoon Spoon::_Spoon;
-
+    Spoon Spoon::_Spoon;
+}
 #endif //DESIGNPATTERN_SPOON_H

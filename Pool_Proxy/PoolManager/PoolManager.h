@@ -9,42 +9,47 @@
 #include "../PoolObject/PoolProxy.h"
 #include <vector>
 #include <queue>
+#include <iostream>
 
-class PoolManager {
-protected:
-    std::vector<IPoolObject *> _poolObjects;
-    int _size;
-    int _available;
+namespace cafeteria {
 
-public:
-    PoolManager(int size, IPoolObject *poolObject) : _size(size), _available(size) {
-        for (int i = 0; i < this->_size; i++) {
-            this->_poolObjects.push_back(poolObject->clone());
-        }
-    }
+    class PoolManager {
+    protected:
+        std::vector<IPoolObject *> _poolObjects;
+        int _size;
+        int _available;
 
-    void release(IPoolObject *poolObject) {
-        this->_available++;
-        poolObject->release();
-    }
-
-    PoolProxy *request() {
-        this->_available--;
-        if (this->_available >= 0) { // 有空余
-            for (int i = 0; i < _size; i++) {
-                // 不是忙的
-                if (!_poolObjects[i]->isBusy()) {
-                    return new PoolProxy(_poolObjects[i]->occupy(), this);
-                }
+    public:
+        PoolManager(int size, IPoolObject *poolObject) : _size(size), _available(size) {
+            for (int i = 0; i < this->_size; i++) {
+                this->_poolObjects.push_back(poolObject->clone());
             }
-        } else {
-            // 没有空余
-            std::cout << "resource have been occupied currently, please try again later" << std::endl;
+        }
+
+        void release(IPoolObject *poolObject) {
+            this->_available++;
+            poolObject->release();
+        }
+
+        PoolProxy *request() {
+            this->_available--;
+            if (this->_available >= 0) { // 有空余
+                for (int i = 0; i < _size; i++) {
+                    // 不是忙的
+                    if (!_poolObjects[i]->isBusy()) {
+                        return new PoolProxy(_poolObjects[i]->occupy(), this);
+                    }
+                }
+            } else {
+                // 没有空余
+                std::cout << "resource have been occupied currently, please try again later" << std::endl;
+                return NULL;
+            }
             return NULL;
         }
-    }
 
-};
+    };
 
+}
 
 #endif //DESIGNPATTERN_POOLMANAGER_H

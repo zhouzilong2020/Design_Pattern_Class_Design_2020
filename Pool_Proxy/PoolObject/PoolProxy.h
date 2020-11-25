@@ -7,30 +7,33 @@
 
 #include "IPoolObject.h"
 
-class PoolManager;
+namespace cafeteria {
+    class PoolManager;
 
-class PoolProxy {
-private:
-    IPoolObject *_poolObject;
-    PoolManager *_poolManager;
-public:
-    ~PoolProxy() {
-        _poolObject = NULL;
-        _poolManager = NULL;
-    }
-
-    PoolProxy(IPoolObject *poolObject, PoolManager *poolManager) : _poolObject(poolObject), _poolManager(poolManager) {}
-
-    void execute() {
-        if (_poolObject) {
-            _poolObject->execute();
-        } else {
-            std::cout << "this resource has been released, pleas reallocate one!" << std::endl;
+    class PoolProxy {
+    private:
+        IPoolObject *_poolObject;
+        PoolManager *_poolManager;
+    public:
+        ~PoolProxy() {
+            _poolObject = NULL;
+            _poolManager = NULL;
         }
-    }
 
-    void release();
-};
+        PoolProxy(IPoolObject *poolObject, PoolManager *poolManager) : _poolObject(poolObject),
+                                                                       _poolManager(poolManager) {}
 
+        void execute() {
+            if (_poolObject) {
+                _poolObject->execute();
+            } else {
+                std::cout << "this resource has been released, pleas reallocate one!" << std::endl;
+            }
+        }
+
+        void release();
+    };
+
+}
 
 #endif //DESIGNPATTERN_POOLPROXY_H

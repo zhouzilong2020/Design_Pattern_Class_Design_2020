@@ -7,12 +7,14 @@
 
 #include <string>
 
-class IService {
-public:
-    virtual void execute() = 0;
+namespace network {
+    class IService {
+    public:
+        virtual void execute() = 0;
 
-    virtual std::string getName() = 0;
-};
+        virtual std::string getName() = 0;
+    };
+}
 
 
 #endif //DESIGNPATTERN_ISERVICE_H

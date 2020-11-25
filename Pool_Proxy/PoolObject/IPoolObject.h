@@ -7,29 +7,31 @@
 
 #include <iostream>
 
-class IPoolObject {
-protected:
-    bool _busy;
+namespace cafeteria {
+    class IPoolObject {
+    protected:
+        bool _busy;
 
-    IPoolObject() : _busy(false) {}
+        IPoolObject() : _busy(false) {}
 
-public:
-    bool isBusy() { return _busy; }
+    public:
+        bool isBusy() { return _busy; }
 
-    IPoolObject *occupy() {
-        std::cout << "IPoolObject::occupy()" << std::endl;
-        return this;
-    }
+        IPoolObject *occupy() {
+            std::cout << "IPoolObject::occupy()" << std::endl;
+            return this;
+        }
 
-    virtual void execute() = 0;
+        virtual void execute() = 0;
 
-    void release() {
-        std::cout << "IPoolObject::release()" << std::endl;
-        this->_busy = false;
-    }
+        void release() {
+            std::cout << "IPoolObject::release()" << std::endl;
+            this->_busy = false;
+        }
 
-    virtual IPoolObject *clone() = 0;
-};
+        virtual IPoolObject *clone() = 0;
+    };
 
+}
 
 #endif //DESIGNPATTERN_IPOOLOBJECT_H

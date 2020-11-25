@@ -9,31 +9,32 @@
 #include <string>
 #include "./Service/IService.h"
 
-class Cache {
+namespace network {
+    class Cache {
 
-private:
-    std::vector<IService *> _services;
+    private:
+        std::vector<IService *> _services;
 
-public:
-    Cache() {};
+    public:
+        Cache() {};
 
-    IService *getService(std::string serviceName) {
-        for (auto service : _services) {
-            if (service->getName() == serviceName) {
-                return service;
+        IService *getService(std::string serviceName) {
+            for (auto service : _services) {
+                if (service->getName() == serviceName) {
+                    return service;
+                }
+            }
+            return NULL;
+        }
+
+        void addService(IService *newService) {
+            if (this->getService(newService->getName()) != NULL) {
+                return;
+            } else {
+                this->_services.push_back(newService);
             }
         }
-        return NULL;
-    }
+    };
 
-    void addService(IService *newService) {
-        if (this->getService(newService->getName()) != NULL) {
-            return;
-        } else {
-            this->_services.push_back(newService);
-        }
-    }
-};
-
-
+}
 #endif //DESIGNPATTERN_CACHE_H
